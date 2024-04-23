@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="frontPage">
+            <h1 class="frontPage__title">CRISTIAN FERNANDEZ</h1>
+        </div>
+    </header>
+    <main>
+        <section class="presentation">
+            <h2 class="presentation__title">SOBRE MÍ</h2>
+            <p class="presentation__text">¡Hola! Soy CRISTIAN, un estudiante de programación. Estoy enfocado en
+                aprender y desarrollar habilidades sólidas en el campo de la tecnología. Mi objetivo es convertirme en
+                un programador versátil y creativo, capaz de resolver problemas de manera eficiente y crear soluciones
+                innovadoras. Estoy emocionado por el viaje de aprendizaje y las oportunidades que me esperan en este
+                apasionante campo.</p>
+        </section>
+        <section class="technologies">
+            <h2 class="technologies__title">MIS TECNOLOGÍAS FAVORITAS</h2>
+            <div class="technologies__brands">
+                <div class="brands">
+                    <img src="./img/css-3-svgrepo-com.svg" alt="" class="brands__img">
+                    <h3 class="brands__title">CSS</h3>
+                </div>
+                <div class="brands">
+                    <img src="./img/html-svgrepo-com.svg" alt="" class="brands__img">
+                    <h3 class="brands__title">HTML</h3>
+                </div>
+                <div class="brands">
+                    <img src="./img/js-svgrepo-com.svg" alt="" class="brands__img">
+                    <h3 class="brands__title">JavaScript</h3>
+                </div>
+                <div class="brands">
+                    <img src="./img/react-svgrepo-com.svg" alt="" class="brands__img">
+                    <h3 class="brands__title">React</h3>
+                </div>
+            </div>
+        </section>
+        <section class="activities">
+            <h2 class="activities__title">MIS ACTIVIDADES</h2>
+            <form action="" class="activities__form">
+                <div>
+                    <label for="title">TITULO</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div>
+                    <label for="description">DESCRIPCIÓN</label>
+                    <textarea id="description" cols="30" rows="10" required name="description"></textarea>
+                </div>
+                <div>
+                    <label for="url">URL DE IMAGEN</label>
+                    <input type="text" id="url" name="url" required>
+                </div>
+                <button id="addActivity" type="submit">Agregar Actividad</button>
+            </form>
+            <h2 id="titleContainer" class="activities__title"></h2>
+            <div id="containerActivities">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>MIS REDES</h3>
+        <hr>
+        <section>
+            <img src="./img/facebook-color-svgrepo-com.svg" alt="">
+            <img src="./img/github-svgrepo-com.svg" alt="">
+            <img src="./img/instagram-1-svgrepo-com.svg" alt="">
+        </section>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

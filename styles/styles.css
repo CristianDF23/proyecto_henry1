@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap');
+
+body {
+    width: 80%;
+    margin: auto;
+    font-family: Titillium Web;
+}
+
+.frontPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    text-align: center;
+}
+
+.frontPage__title {
+    color: rgb(25, 47, 66);
+}
+
+.presentation {
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+}
+
+.presentation__title {
+    color: rgb(25, 47, 66);
+}
+
+.presentation__text {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: rgb(25, 47, 66);
+}
+
+.technologies {
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies__brands {
+    display: flex;
+    gap: 3rem;
+}
+
+.technologies__title {
+    color: rgb(25, 47, 66);
+}
+
+.brands {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brands__img {
+    width: 200px;
+    transition: .3s ease-out;
+}
+
+.brands__img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(20px 5px 4px #414158);
+}
+
+.brands__title {
+    color: rgb(25, 47, 66);
+}
+
+.activities {
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities__form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: .6rem;
+}
+
+.activities__form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities__form input,
+textarea {
+    width: 550px;
+    height: 50px;
+    font-size: 1.1rem;
+    padding: 10px;
+    font-family: Titillium Web;
+}
+
+.activities__title {
+    color: rgb(25, 47, 66);
+}
+
+.activities__form button {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #414158;
+    border: none;
+    color: aliceblue;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+
+.activities__form button:hover {
+    background-color: aliceblue;
+    color: #414158;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+}
+
+#containerActivities {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 330px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    transition: .3s ease-out;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+}
+
+.card h3 {
+    color: #414158;
+    font-size: 1.3rem;
+}
+
+.card p {
+    color: #414158;
+    font-size: 1.2rem;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-y: auto;
+    padding: 3px;
+}
+
+.remove {
+    position: absolute;
+    background: none;
+    color: rgb(75, 152, 219);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .3s ease-out;
+    transform: translate(110px, 0px);
+}
+
+.remove:hover {
+    color: grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    width: 100%;
+    padding: 20px;
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+footer section img {
+    width: 40px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+footer section img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 4px #414158);
+}
+
+footer h3 {
+    color: #414158;
+}
+
+
+footer hr {
+    width: 250px;
+    color: #414158;
+}
